@@ -11,4 +11,4 @@ const [element1,element2,element3] = tecnologias
 // Se haria de la siguiente forma
 const [ , , , ,last] = tecnologias
 // Denotando espacios vacios en las posiciones que no nos interesan
-// En este caso es muchisimo mejor utilizar la forma
+// En este caso es muchisimo mejor utilizar la forma vieja

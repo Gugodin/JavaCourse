@@ -24,7 +24,7 @@ const resultado = numeros.find((element) => element > 0)
 const allAreUpToOne = numeros.every((element)=> element > 1)
 
 // Reduce
-// Sirve para realizar una acumulacion, en este caso el segundo parametro '0' indica con que valor comenzara la
+// Sirve para realizar una acumulacion, en este caso el segundo parametro '0' indica con el valor que comenzara la
 // variable 'total' y conforme vaya pasando en el arreglo se ira acumulando su valor
 const reduce = numeros.reduce((total, numeroActual) => total + numeroActual ,0)
 
