@@ -10,11 +10,13 @@ const tecnologias = ['HTML','CSS','JAVA','React.js','Node.js']
 tecnologias.push('aaaa')
 
 
+// 
 // Metodos de una lista
 // Para eliminar el primer elemento de la lista (Mutable)
 // .shift
 // Para eliminar el primer elemento de la lista (No Mutable)
 // .filter(Function(element){})
+
 
 // Para modificar el algun elemento de la lista (Mutable)
 // tecnologias[0] = 'html'

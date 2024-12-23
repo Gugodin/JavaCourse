@@ -9,13 +9,17 @@ const cliente = {
     nombre: 'Juan antonio',
     premium: false,
     direccion:  {
-        calle: 'asdsadsad'
+        calle: 'asdsadsad',
+        precio: 12
     }
 }
 
 // Con : renombramos la variable para que no tengamos problemas con el renombramiento de la variable
 const {nombre} = producto;
-const { nombre : nombreCliente , direccion: {calle: nombreDeCalle} } = cliente;
+const { nombre : nombreCliente , direccion: { precio : precioViejo} } = cliente;
+
+console.log(precioViejo);
+
 
 
 
